@@ -20,10 +20,13 @@ const FilesView = () => {
 
     return (
     <div className='fileView'>
+            <div className="fileView__titles--top">
+                <p>Acesso rápido</p>
+            </div>
             <div className="fileView__row">
                 {
                     files.slice(0,5).map(({id, item})=>
-                        <FileCard name = {item.caption}/>
+                        <FileCard name = {item.caption} fileUrl = {item.fileUrl}/>
                     )
                 }
             </div>

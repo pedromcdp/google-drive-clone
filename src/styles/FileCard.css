@@ -4,6 +4,11 @@
     border-radius: 10px;
     border: 1px solid rgb(219, 219, 219);
     margin: 5px;
+    cursor: pointer;
+}
+.fileCard>a{
+    text-decoration: none;
+    color: black;
 }
 
 .fileCard--top{
